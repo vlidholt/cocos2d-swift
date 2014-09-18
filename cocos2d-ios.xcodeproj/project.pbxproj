@@ -127,7 +127,6 @@
 		83E1A86F19C8ACAF000A3BCA /* CCPackageUnzipperDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E1A86C19C8ACAF000A3BCA /* CCPackageUnzipperDelegate.h */; };
 		83E1A87619C8ACC1000A3BCA /* CCPackageDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E1A87019C8ACC1000A3BCA /* CCPackageDownload.h */; };
 		83E1A87719C8ACC1000A3BCA /* CCPackageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1A87119C8ACC1000A3BCA /* CCPackageDownload.m */; };
-		83E1A87819C8ACC1000A3BCA /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 83E1A87219C8ACC1000A3BCA /* CCPackageDownloadDelegate.h */; };
 		83E1A87919C8ACC1000A3BCA /* CCPackageDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E1A87319C8ACC1000A3BCA /* CCPackageDownloadManager.h */; };
 		83E1A87A19C8ACC1000A3BCA /* CCPackageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1A87419C8ACC1000A3BCA /* CCPackageDownloadManager.m */; };
 		83E1A87B19C8ACC1000A3BCA /* CCPackageDownloadManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E1A87519C8ACC1000A3BCA /* CCPackageDownloadManagerDelegate.h */; };
@@ -139,7 +138,6 @@
 		83E1A88919C8ACDC000A3BCA /* CCPackageInstallData.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1A88119C8ACDC000A3BCA /* CCPackageInstallData.m */; };
 		83E1A88A19C8ACDC000A3BCA /* CCPackageInstaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E1A88219C8ACDC000A3BCA /* CCPackageInstaller.h */; };
 		83E1A88B19C8ACDC000A3BCA /* CCPackageInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1A88319C8ACDC000A3BCA /* CCPackageInstaller.m */; };
-		83E1A88E19C8C19D000A3BCA /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = 83E1A88D19C8C19D000A3BCA /* libz.dylib */; };
 		9D85671D191B018200573093 /* CCEffectBrightness.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D85671B191B018200573093 /* CCEffectBrightness.h */; };
 		9D85671E191B018200573093 /* CCEffectBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85671C191B018200573093 /* CCEffectBrightness.m */; };
 		9D856721191B019900573093 /* CCEffectContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D85671F191B019900573093 /* CCEffectContrast.h */; };
@@ -211,6 +209,17 @@
 		B7D273171822F4AA0054849B /* CCBSequenceProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D2730A1822F4AA0054849B /* CCBSequenceProperty.h */; };
 		B7D273181822F4AA0054849B /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D2730B1822F4AA0054849B /* CCBSequenceProperty.m */; };
 		B7D273191822F4AA0054849B /* CCBuilderReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D2730C1822F4AA0054849B /* CCBuilderReader.h */; };
+		B7DC2E4019CB8A22001090BC /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DC2E3519CB8A22001090BC /* crypt.h */; };
+		B7DC2E4119CB8A22001090BC /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B7DC2E3619CB8A22001090BC /* ioapi.c */; };
+		B7DC2E4219CB8A22001090BC /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DC2E3719CB8A22001090BC /* ioapi.h */; };
+		B7DC2E4319CB8A22001090BC /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = B7DC2E3819CB8A22001090BC /* mztools.c */; };
+		B7DC2E4419CB8A22001090BC /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DC2E3919CB8A22001090BC /* mztools.h */; };
+		B7DC2E4519CB8A22001090BC /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B7DC2E3A19CB8A22001090BC /* unzip.c */; };
+		B7DC2E4619CB8A22001090BC /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DC2E3B19CB8A22001090BC /* unzip.h */; };
+		B7DC2E4719CB8A22001090BC /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B7DC2E3C19CB8A22001090BC /* zip.c */; };
+		B7DC2E4819CB8A22001090BC /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DC2E3D19CB8A22001090BC /* zip.h */; };
+		B7DC2E4919CB8A22001090BC /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DC2E3E19CB8A22001090BC /* SSZipArchive.h */; };
+		B7DC2E4A19CB8A22001090BC /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DC2E3F19CB8A22001090BC /* SSZipArchive.m */; };
 		B7E260D818171D2000A0E872 /* CCTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E260D618171D2000A0E872 /* CCTextField.h */; };
 		B7E260D918171D2000A0E872 /* CCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E260D718171D2000A0E872 /* CCTextField.m */; };
 		B7E775D018527EF0004221AA /* CCAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E775CE18527EF0004221AA /* CCAppDelegate.h */; };
@@ -626,6 +635,13 @@
 			remoteGlobalIDString = D309B21217EFE2EF00AA52C8;
 			remoteInfo = "ObjectiveChipmunk-iPhone";
 		};
+		B7DC2E3019CB899B001090BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC39961319C3B92F00C93E5E /* ObjectAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D369B53219C8E73C00BA46EA;
+			remoteInfo = "ObjectAL (Mac)";
+		};
 		D2FEB60F194F6C9E00FC0574 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B759E5281880C66900E8166C /* Chipmunk7-ios.xcodeproj */;
@@ -639,13 +655,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = CBBAB312171D0B84009B955F;
 			remoteInfo = "ObjectAL (iOS)";
-		};
-		FC39961C19C3B92F00C93E5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC39961319C3B92F00C93E5E /* ObjectAL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CBBAB33D171D0BC4009B955F;
-			remoteInfo = "ObjectAL (OSX)";
 		};
 		FC39961E19C3B92F00C93E5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -905,6 +914,17 @@
 		B7D2730A1822F4AA0054849B /* CCBSequenceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBSequenceProperty.h; path = "cocos2d-ui/CCBReader/CCBSequenceProperty.h"; sourceTree = "<group>"; };
 		B7D2730B1822F4AA0054849B /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCBSequenceProperty.m; path = "cocos2d-ui/CCBReader/CCBSequenceProperty.m"; sourceTree = "<group>"; };
 		B7D2730C1822F4AA0054849B /* CCBuilderReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBuilderReader.h; path = "cocos2d-ui/CCBReader/CCBuilderReader.h"; sourceTree = "<group>"; };
+		B7DC2E3519CB8A22001090BC /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		B7DC2E3619CB8A22001090BC /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		B7DC2E3719CB8A22001090BC /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		B7DC2E3819CB8A22001090BC /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		B7DC2E3919CB8A22001090BC /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		B7DC2E3A19CB8A22001090BC /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		B7DC2E3B19CB8A22001090BC /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		B7DC2E3C19CB8A22001090BC /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		B7DC2E3D19CB8A22001090BC /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		B7DC2E3E19CB8A22001090BC /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		B7DC2E3F19CB8A22001090BC /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 		B7E260D618171D2000A0E872 /* CCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTextField.h; path = "cocos2d-ui/CCTextField.h"; sourceTree = "<group>"; };
 		B7E260D718171D2000A0E872 /* CCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTextField.m; path = "cocos2d-ui/CCTextField.m"; sourceTree = "<group>"; };
 		B7E775CE18527EF0004221AA /* CCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
@@ -1151,6 +1171,7 @@
 		501756090F335CE900624901 /* external */ = {
 			isa = PBXGroup;
 			children = (
+				B7DC2E3219CB89DD001090BC /* SSZipArchive */,
 				FC39961319C3B92F00C93E5E /* ObjectAL.xcodeproj */,
 				B759E5281880C66900E8166C /* Chipmunk7-ios.xcodeproj */,
 			);
@@ -1644,6 +1665,41 @@
 			name = CCBReader;
 			sourceTree = "<group>";
 		};
+		B7DC2E3219CB89DD001090BC /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				B7DC2E3319CB8A22001090BC /* SSZipArchive */,
+			);
+			name = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		B7DC2E3319CB8A22001090BC /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				B7DC2E3419CB8A22001090BC /* minizip */,
+				B7DC2E3E19CB8A22001090BC /* SSZipArchive.h */,
+				B7DC2E3F19CB8A22001090BC /* SSZipArchive.m */,
+			);
+			name = SSZipArchive;
+			path = external/SSZipArchive/SSZipArchive;
+			sourceTree = "<group>";
+		};
+		B7DC2E3419CB8A22001090BC /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				B7DC2E3519CB8A22001090BC /* crypt.h */,
+				B7DC2E3619CB8A22001090BC /* ioapi.c */,
+				B7DC2E3719CB8A22001090BC /* ioapi.h */,
+				B7DC2E3819CB8A22001090BC /* mztools.c */,
+				B7DC2E3919CB8A22001090BC /* mztools.h */,
+				B7DC2E3A19CB8A22001090BC /* unzip.c */,
+				B7DC2E3B19CB8A22001090BC /* unzip.h */,
+				B7DC2E3C19CB8A22001090BC /* zip.c */,
+				B7DC2E3D19CB8A22001090BC /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 		B7EE69DB1819E73A00B983FE /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1822,8 +1878,8 @@
 			isa = PBXGroup;
 			children = (
 				FC39961B19C3B92F00C93E5E /* libObjectAL.a */,
-				FC39961D19C3B92F00C93E5E /* ObjectAL.framework */,
 				FC39961F19C3B92F00C93E5E /* libObjectAL (Android).a */,
+				B7DC2E3119CB899B001090BC /* libObjectAL (Mac).a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1853,6 +1909,7 @@
 				9D856721191B019900573093 /* CCEffectContrast.h in Headers */,
 				50F9E8170E1AA34E000E7616 /* ccTypes.h in Headers */,
 				D3A2E7D2181E12750033614C /* CCPhysicsShape.h in Headers */,
+				B7DC2E4819CB8A22001090BC /* zip.h in Headers */,
 				504055B00E3230BD00213FEF /* CCParticleExamples.h in Headers */,
 				D24160FD1958F6EE003673BD /* CCAnimationManager_Private.h in Headers */,
 				506602110E38A70D000B500E /* CCScheduler.h in Headers */,
@@ -1899,6 +1956,7 @@
 				50F2A105102094550046CA73 /* ZipUtils.h in Headers */,
 				D27451B719AE5517006DA0A1 /* CCEffectDistanceField.h in Headers */,
 				50CFAC391023660000175934 /* CCTMXXMLParser.h in Headers */,
+				B7DC2E4619CB8A22001090BC /* unzip.h in Headers */,
 				50316AA610291280003ACFE7 /* CCRenderTexture.h in Headers */,
 				B7D273171822F4AA0054849B /* CCBSequenceProperty.h in Headers */,
 				50316AD41029A126003ACFE7 /* CCMotionStreak.h in Headers */,
@@ -1954,6 +2012,8 @@
 				B7D273191822F4AA0054849B /* CCBuilderReader.h in Headers */,
 				B7E775D018527EF0004221AA /* CCAppDelegate.h in Headers */,
 				E0BC7D9F1342CE7B001B4DCC /* CCShader.h in Headers */,
+				B7DC2E4919CB8A22001090BC /* SSZipArchive.h in Headers */,
+				B7DC2E4419CB8A22001090BC /* mztools.h in Headers */,
 				D2DDB09319805E8400233D80 /* CCMathUtilsAndroid.h in Headers */,
 				E0BC7DA81342CF27001B4DCC /* CCES2Renderer.h in Headers */,
 				D39FA9C818C1BC6B00441627 /* CCShader_Private.h in Headers */,
@@ -1968,6 +2028,7 @@
 				B791E84A182064BF00DAE1D7 /* CCTiledMapLayer_Private.h in Headers */,
 				83E1A86F19C8ACAF000A3BCA /* CCPackageUnzipperDelegate.h in Headers */,
 				83E1A86919C8ACA0000A3BCA /* CCPackageTypes.h in Headers */,
+				B7DC2E4219CB8A22001090BC /* ioapi.h in Headers */,
 				D27451C619B111A9006DA0A1 /* CCEffectDFOutline.h in Headers */,
 				A6DC4E0918055DCC00C280A6 /* CCTransition.h in Headers */,
 				B791E85D182074C500DAE1D7 /* CCProgressNode_Private.h in Headers */,
@@ -1982,6 +2043,7 @@
 				2B192835163361B10049A044 /* CCClippingNode.h in Headers */,
 				83E1A88A19C8ACDC000A3BCA /* CCPackageInstaller.h in Headers */,
 				B7EE6A1E181AE34600B983FE /* CCSlider.h in Headers */,
+				B7DC2E4019CB8A22001090BC /* crypt.h in Headers */,
 				A003AC8C1657071100C7B792 /* ccFPSImages.h in Headers */,
 				B74C2B9B17BDA63A00A829C0 /* CCSprite9Slice.h in Headers */,
 				B77060CF18341AD50043CC67 /* CCBReader_Private.h in Headers */,
@@ -2261,18 +2323,18 @@
 			remoteRef = B759E52C1880C66900E8166C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B7DC2E3119CB899B001090BC /* libObjectAL (Mac).a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjectAL (Mac).a";
+			remoteRef = B7DC2E3019CB899B001090BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		FC39961B19C3B92F00C93E5E /* libObjectAL.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libObjectAL.a;
 			remoteRef = FC39961A19C3B92F00C93E5E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FC39961D19C3B92F00C93E5E /* ObjectAL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectAL.framework;
-			remoteRef = FC39961C19C3B92F00C93E5E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FC39961F19C3B92F00C93E5E /* libObjectAL (Android).a */ = {
@@ -2373,6 +2435,7 @@
 				571CD02B19649E03003D460C /* CCPlatformTextFieldIOS.m in Sources */,
 				83E1A86519C8ACA0000A3BCA /* CCPackageConstants.m in Sources */,
 				D272032E18FC89A000B100FF /* CCEffectStack.m in Sources */,
+				B7DC2E4319CB8A22001090BC /* mztools.c in Sources */,
 				50316AA710291280003ACFE7 /* CCRenderTexture.m in Sources */,
 				50316AD51029A126003ACFE7 /* CCMotionStreak.m in Sources */,
 				50E2A15110A45E7F00D894CE /* CCSpriteFrame.m in Sources */,
@@ -2384,6 +2447,7 @@
 				83E1A88919C8ACDC000A3BCA /* CCPackageInstallData.m in Sources */,
 				D37D197818B6665700B23FDE /* CCTiledMapLayer.m in Sources */,
 				D272032618FC89A000B100FF /* CCEffect.m in Sources */,
+				B7DC2E4119CB8A22001090BC /* ioapi.c in Sources */,
 				83E1A87719C8ACC1000A3BCA /* CCPackageDownload.m in Sources */,
 				50FBB2DB117613F500150761 /* CCActionTween.m in Sources */,
 				D37D197B18B6666E00B23FDE /* CCSpriteBatchNode.m in Sources */,
@@ -2400,6 +2464,7 @@
 				D285ECF9192EF5B2009F4E88 /* CCDirectorAndroid.m in Sources */,
 				D268FE0E198078FF00ECBCD0 /* CCEffectBloom.m in Sources */,
 				E0EAD109121F4B4600B0C81C /* CCGLView.m in Sources */,
+				B7DC2E4719CB8A22001090BC /* zip.c in Sources */,
 				9D85671E191B018200573093 /* CCEffectBrightness.m in Sources */,
 				D268FE14198078FF00ECBCD0 /* CCEffectReflection.m in Sources */,
 				B7D273101822F4AA0054849B /* CCBKeyframe.m in Sources */,
@@ -2419,6 +2484,7 @@
 				9DF37622191C594A00C6D27A /* CCEffectPixellate.m in Sources */,
 				A0A7A53D1514F27D00C8BD16 /* CCActionCatmullRom.m in Sources */,
 				D380581B1889AD6000822437 /* CCRenderer.m in Sources */,
+				B7DC2E4A19CB8A22001090BC /* SSZipArchive.m in Sources */,
 				A039EC00155C686B0061EE37 /* CCNode+Debug.m in Sources */,
 				D2DDB0A519805E8400233D80 /* CCQuaternion.m in Sources */,
 				D36D31B718BD3CAA00E45F08 /* CCProgressNode.m in Sources */,
@@ -2440,6 +2506,7 @@
 				83E1A88B19C8ACDC000A3BCA /* CCPackageInstaller.m in Sources */,
 				D23C5CB5194BC108007CA669 /* CCTouchIOS.m in Sources */,
 				A6A0734B17C78EF3004343C8 /* CCResponder.m in Sources */,
+				B7DC2E4519CB8A22001090BC /* unzip.c in Sources */,
 				B78AE46317E7AF1C0028BE0B /* CCButton.m in Sources */,
 				B78AE46517E7AF1C0028BE0B /* CCControl.m in Sources */,
 				B78AE46717E7AF1C0028BE0B /* CCControlTextureFactory.m in Sources */,
