@@ -771,7 +771,7 @@
 						TestTargetID = B7E2604717E7D278007067F0;
 					};
 					B7E2604717E7D278007067F0 = {
-						DevelopmentTeam = 96LKF67VJA;
+						DevelopmentTeam = U2K5E32W7G;
 					};
 				};
 			};
